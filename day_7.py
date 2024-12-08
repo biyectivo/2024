@@ -2,6 +2,9 @@ import re
 import math
 import numpy as np
 import itertools as it
+import time
+
+t = time.time()
 
 def calc(a,b,op):
     if op == "+":
@@ -42,3 +45,4 @@ with open(r"C:\Users\biyec\OneDrive\Documentos\Programación\Advent of Code\2024
             #else:
                 #print(" this combo did not work")
 print(total)
+print(f"Time: {time.time()-t} seconds")
